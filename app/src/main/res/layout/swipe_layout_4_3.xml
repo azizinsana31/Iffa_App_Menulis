@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cantum Ayat 3"
+                android:textSize="12pt"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="5dp"
+                >
+                <ImageView
+                    android:id="@+id/iv_gambar_soal"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/online_learning"
+                    />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                >
+                <TextView
+                    android:id="@+id/txtSoalanAyat3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Saya Budak Lelaki"
+                    android:textSize="8pt"
+                    android:layout_margin="10dp"
+                    android:gravity="center_horizontal"
+
+                />
+            </androidx.cardview.widget.CardView>
+
+            <EditText
+                android:id="@+id/txtJawabanAyat3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="[ cuba tulis ]"
+                android:textSize="8pt"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:id="@+id/btnCheckAyat3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:text="Check"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

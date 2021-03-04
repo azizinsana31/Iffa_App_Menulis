@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/icon_app"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/icon_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CantumAyat4Activity"/>
+        <activity android:name=".CantumAyat3Activity" />
+        <activity android:name=".CantumAyat2Activity" />
+        <activity android:name=".CantumPerkataan2Activity" />
+        <activity android:name=".SukuKataTertutupActivity" />
+        <activity android:name=".CantumAyatActivity" />
+        <activity android:name=".CantumPerkataanActivity" />
+        <activity android:name=".SukuKataTerbukaActivity" />
+        <activity
+            android:name=".PopupActivity"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity
+            android:name=".PadaanHurufActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SubHurufActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HurufActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SubActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

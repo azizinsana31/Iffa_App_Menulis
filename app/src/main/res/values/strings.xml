@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">App Menulis</string>
+
+    <!--  HURUF BESAR  -->
+    <string-array name="huruf_besar">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+
+    <!--  HURUF KECIL  -->
+    <string-array name="huruf_kecil">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>v</item>
+        <item>w</item>
+        <item>x</item>
+        <item>y</item>
+        <item>z</item>
+    </string-array>
+
+    <!-- HURUF VOKAL -->
+    <string-array name="huruf_vokal">
+        <item>A</item>
+        <item>a</item>
+        <item>I</item>
+        <item>i</item>
+        <item>U</item>
+        <item>u</item>
+        <item>E</item>
+        <item>e</item>
+        <item>O</item>
+        <item>o</item>
+    </string-array>
+
+    <!-- HURUF KONSONAN -->
+    <string-array name="huruf_konsonan">
+        <item>B</item>
+        <item>b</item>
+        <item>C</item>
+        <item>c</item>
+        <item>D</item>
+        <item>d</item>
+        <item>F</item>
+        <item>f</item>
+        <item>G</item>
+        <item>g</item>
+        <item>H</item>
+        <item>h</item>
+        <item>J</item>
+        <item>j</item>
+        <item>K</item>
+        <item>k</item>
+        <item>L</item>
+        <item>l</item>
+        <item>M</item>
+        <item>m</item>
+        <item>N</item>
+        <item>n</item>
+        <item>P</item>
+        <item>p</item>
+        <item>Q</item>
+        <item>q</item>
+        <item>R</item>
+        <item>r</item>
+        <item>S</item>
+        <item>s</item>
+        <item>T</item>
+        <item>t</item>
+        <item>V</item>
+        <item>v</item>
+        <item>W</item>
+        <item>w</item>
+        <item>X</item>
+        <item>x</item>
+        <item>Y</item>
+        <item>y</item>
+        <item>Z</item>
+        <item>z</item>
+    </string-array>
+
+    <string-array name="kenal_huruf">
+        <item>Huruf Kecil</item>
+        <item>Huruf Besar</item>
+        <item>Huruf Vokal</item>
+        <item>Huruf Konsonan</item>
+    </string-array>
+
+    <string-array name="padaan_huruf">
+        <item>Padaan Huruf Kecil</item>\
+        <item>Padaan Huruf Besar</item>
+    </string-array>
+
+    <string-array name="cantum_suku_kata">
+        <item>Suku Kata Terbuka</item>
+        <item>Suku Kata Tertutup</item>
+    </string-array>
+
+    <string-array name="cantum_perkataan">
+        <item>Cantum Perkataan 1</item>
+        <item>Cantum Perkataan 2</item>
+    </string-array>
+
+    <string-array name="cantum_ayat">
+        <item>Cantum Ayat 1</item>
+        <item>Cantum Ayat 2</item>
+        <item>Cantum Ayat 3</item>
+        <item>Cantum Ayat 4</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
